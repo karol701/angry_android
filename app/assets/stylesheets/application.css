@@ -1,0 +1,215 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.antenas {
+    height: 40px;
+    width: 10px;
+    background-color: #A4C639;
+    border-radius: 25px;
+    position: absolute;
+    top: -20px;
+}
+
+#left_antena {
+    left: 50px;
+}
+
+#right_antena {
+    right: 50px;
+}
+
+.eyes {
+    height: 17px;
+    width: 17px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50px;
+}
+
+.angry_eyes {
+    height: 17px;
+    width: 17px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 50px;
+}
+
+#left_eye {
+    left: 50px;
+}
+
+#right_eye {
+    right: 50px;
+}
+
+.angry_eyebrows {
+    height: 22px;
+    width: 5px;
+    background-color: red;
+    border-radius: 25px;
+    position: absolute;
+    top: 30px;
+
+}
+
+#left_eyebrow {
+    left: 55px;
+    -ms-transform: rotate(-55deg); /* IE 9 */
+    -webkit-transform: rotate(-55deg); /* Safari */
+    transform: rotate(-55deg);
+}
+
+#right_eyebrow {
+    right: 55px;
+    -ms-transform: rotate(55deg); /* IE 9 */
+    -webkit-transform: rotate(55deg); /* Safari */
+    transform: rotate(55deg)
+}
+
+
+.robot_head {
+    height: 100px;
+    width: 200px;
+    background-color: #A4C639;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+    border-radius: 160px 160px 0 0;
+    -moz-border-radius: 160px 160px 0 0;
+    -webkit-border-radius: 160px 160px 0 0;
+}
+
+.speak {
+    display: none;
+}
+.speak_happy {
+    height: 100px;
+    width: 150px;
+    background-color: blue;
+    position: absolute;
+    top: -20px;
+    left: -150px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.speak_angry {
+    height: 100px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    top: -10px;
+    left: -150px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.phone_container {
+    height: 180px;
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: -200px;
+}
+
+#phone1 {
+    height: 180px;
+    width: 120px;
+    position: relative;
+    float: left;
+}
+
+#phone2 {
+    height: 180px;
+    width: 120px;
+    position: relative;
+    float: right;
+}
+
+
+.robot_body {
+    height: 180px;
+    width: 200px;
+    background-color: #A4C639;
+    margin: 10px auto;
+    position: relative;
+    top: 40px;
+    border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 0 0 25px 25px;
+}
+.arms {
+    height: 145px;
+    width: 35px;
+    background-color: #A4C639;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.arms_direct {
+    height: 145px;
+    width: 35px;
+    background-color: #A4C639;
+    position: absolute;
+    border-radius: 25px;
+    transform: rotate(-17deg);
+}
+
+.arms_up {
+    height: 145px;
+    width: 35px;
+    background-color: #A4C639;
+    position: absolute;
+    top: -135px;
+    border-radius: 25px;
+}
+
+#left_arm {
+    left: -40px;
+}
+
+#right_arm {
+    right: -40px;
+}
+
+.legs {
+    height: 100px;
+    width: 35px;
+    background-color: #A4C639;
+    position: absolute;
+    top: 150px;
+    border-radius: 25px;
+}
+
+#left_leg {
+    left: 30px;
+}
+
+#right_leg {
+    right: 30px;
+}
