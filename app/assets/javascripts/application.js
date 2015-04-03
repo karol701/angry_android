@@ -22,7 +22,6 @@ window.setTimeout(function () {
 
 window.setTimeout(function () {
 var clicks = 0;
-alert("aaa");
 $("#phone1").click( function() {
     if(clicks == 0){
         $(".eyebrows").removeClass("eyebrows").addClass("angry_eyebrows");
